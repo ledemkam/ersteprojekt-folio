@@ -1,303 +1,279 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@200&display=swap');
 body {
-    margin: 0;
+   margin: 0;
 }
 
-nav{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    color: #333;
-
-
-
-
-}
-nav p {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 32px;
-   
-    
+header p {
+   margin: 0 auto;
+   text-align: center;
+   font-size: 32px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 800;
+   color: #333;
 }
 
 span {
-    width: 80%;
-    margin: 10px auto;
+   width: 80%;
+   margin: 10px auto;
 }
 
 header h1 {
-    text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
+   text-align: center;
+   font-family: 'Didact Gothic', sans-serif;
 }
 
 #erste {
-    font-size: 500%;
+   font-size: 500%;
 }
 
 #zweite {
-    font-size: 500%;
+   font-size: 500%;
 }
 
-main {
-    margin: 0 auto;
-    text-align: center;
+.main {
+   margin: 0 auto;
+   text-align: center;
 }
 
-main div h2 {
-    background-color: #fff;
-    padding: 100px 0;
-    font-size: 100px;
-    font-family: 'Didact Gothic', sans-serif;
+.main div h2 {
+   background-color: #fff;
+   padding: 100px 0;
+   font-size: 100px;
+   font-family: 'Didact Gothic', sans-serif;
 }
 
 section div:nth-of-type(1) {
-    background: url(../img/portfolio2.jpg) center no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    height: 100vh;
+   background: url(../img/portfolio2.jpg) center no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   height: 100vh;
 }
 
 section div:nth-of-type(2) {
-    background: url(../img/portfolio3.png) center no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    height: 100vh;
+   background: url(../img/portfolio3.png) center no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   height: 100vh;
 }
 
 section div:nth-of-type(3) {
-    background: url(../img/portfolio4.jpg) center no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    height: 100vh;
+   background: url(../img/portfolio4.jpg) center no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   height: 100vh;
 }
 
 section div:nth-of-type(4) {
-    background: url(../img/portfolio5.png) center no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    height: 100vh;
+   background: url(../img/portfolio5.png) center no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   height: 100vh;
 }
 
 section div {
-    padding: 250px 200px;
-    line-height: 3;
-    font-family: 'Didact Gothic', sans-serif;
-
+   padding: 250px 200px;
+   line-height: 3;
+   font-family: 'Didact Gothic', sans-serif;
 }
 
 div.My01 p,
 div.My03 {
-    color: #9e9e9e;
+   color: #9e9e9e;
 }
 
 div.My01 h3,
 div.My03 h5 {
-    color: #fff;
-    font-size: 70px;
+   color: #fff;
+   font-size: 70px;
 }
 
 div.My02 p,
 div.My04 p {
-    color: #9e9e9e;
+   color: #9e9e9e;
 }
 
 div.My02 h4,
 div.My04 h6 {
-    color: #000;
-    font-size: 70px;
+   color: #000;
+   font-size: 70px;
 }
-
-
-
 
 .myFirstText {
-    width: 80px;
-    padding-left: 30px;
-    color: #fff;
-    border: 1px solid #fff;
+   width: 80px;
+   padding-left: 30px;
+   color: #fff;
+   border: 1px solid #fff;
 }
-.myThirdText{
-    
-        width: 80px;
-        padding-left: 30px;
-        color: #fff;
-        border: 1px solid #fff;
-
+.myThirdText {
+   width: 80px;
+   padding-left: 30px;
+   color: #fff;
+   border: 1px solid #fff;
 }
 .mySecondText {
-    color: #000;
-    border: 1px solid #000;
-    padding-left: 30px;
-    width: 80px;
+   color: #000;
+   border: 1px solid #000;
+   padding-left: 30px;
+   width: 80px;
 }
-.myFouthText{
-    color: #000;
-    border: 1px solid #000;
-    padding-left: 30px;
-    width: 80px;
-
+.myFouthText {
+   color: #000;
+   border: 1px solid #000;
+   padding-left: 30px;
+   width: 80px;
 }
 
 p.myFirst {
-    font-size: 150px;
-    text-align: right;
-    /* vertical-align: bottom;*/
-    font-weight: 500;
-    vertical-align: bottom;
-    font-family: 'Fjalla One', sans-serif;
-    
+   font-size: 150px;
+   text-align: right;
+   /* vertical-align: bottom;*/
+   font-weight: 500;
+   vertical-align: bottom;
+   font-family: 'Fjalla One', sans-serif;
 }
 p.mySecond {
-    font-size: 150px;
-    text-align: right;
-    vertical-align: bottom;
-    font-weight: 500;
-    font-family: 'Fjalla One', sans-serif;
-    
+   font-size: 150px;
+   text-align: right;
+   vertical-align: bottom;
+   font-weight: 500;
+   font-family: 'Fjalla One', sans-serif;
 }
 
 p.myThird {
-    font-size: 150px;
-    text-align: right;
-    vertical-align: bottom;
-    font-weight: 500;
-    font-family: 'Fjalla One', sans-serif;
-    
+   font-size: 150px;
+   text-align: right;
+   vertical-align: bottom;
+   font-weight: 500;
+   font-family: 'Fjalla One', sans-serif;
 }
 
 p.myFouth {
-    font-size: 150px;
-    text-align: right;
-    vertical-align: bottom;
-    font-weight: 500;
-    font-family: 'Fjalla One', sans-serif;
-    
+   font-size: 150px;
+   text-align: right;
+   vertical-align: bottom;
+   font-weight: 500;
+   font-family: 'Fjalla One', sans-serif;
 }
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+   content: '';
+   display: block;
+   clear: both;
 }
 
 .myFirstText:hover {
-    color: #000;
-    background-color: #fff;
+   color: #000;
+   background-color: #fff;
 }
 
-.myFirstText:hover+.myFirst {
-    color: #fff;
+.myFirstText:hover + .myFirst {
+   color: #fff;
 }
-.mySecondText:hover{
-    color: #fff;
-    background-color: #000;
+.mySecondText:hover {
+   color: #fff;
+   background-color: #000;
 }
-.mySecondText:hover+.mySecond {
-    color: #000;
+.mySecondText:hover + .mySecond {
+   color: #000;
 }
-.myThirdText:hover{
-    color: #000;
-    background-color: #fff;
+.myThirdText:hover {
+   color: #000;
+   background-color: #fff;
 }
-.myThirdText:hover+.myThird {
-    color: #fff;
+.myThirdText:hover + .myThird {
+   color: #fff;
 }
-.myFouthText:hover{
-    color:#fff;
-    background-color: #000;
+.myFouthText:hover {
+   color: #fff;
+   background-color: #000;
 }
-.myFouthText:hover+.myFouth{
-    color: #000; ;
+.myFouthText:hover + .myFouth {
+   color: #000;
 }
-
 
 article {
-    background-color: black;
-    background-size: cover;
-    margin: auto 0;
-    height: 100vh;
-    color: white;
-    font-family: 'Didact Gothic', sans-serif;
+   background-color: black;
+   background-size: cover;
+   margin: auto 0;
+   height: 100vh;
+   color: white;
+   font-family: 'Didact Gothic', sans-serif;
 }
 
 article div p {
-    color: #fff;
-    font-size: 70px;
-    padding: 120px 500px;
+   color: #fff;
+   font-size: 70px;
+   padding: 120px 500px;
 }
 
 .myrightart {
-    position: absolute;
-    left: 600px;
-    font-size: 20px;
-    color: #666;
-    padding: 10px;
-    
+   position: absolute;
+   left: 600px;
+   font-size: 20px;
+   color: #666;
+   padding: 10px;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 30px;
-    position: relative;
-    left: 130px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 30px;
+   position: relative;
+   left: 130px;
 }
 
 a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 footer {
-    margin: 0 auto;
-    background-size: cover;
-    background-color: white;
-    height: 100vh;
-    line-height: 150px;
-    padding: 25px auto;
-    color: black;
-    font-family: 'Didact Gothic', sans-serif;
-
-
+   margin: 0 auto;
+   background-size: cover;
+   background-color: white;
+   height: 100vh;
+   line-height: 150px;
+   padding: 25px auto;
+   color: black;
+   font-family: 'Didact Gothic', sans-serif;
 }
 
 footer ul {
-    list-style: none;
-    text-align: center;
-    font-weight: 100px;
-    font-size: 68px;
+   list-style: none;
+   text-align: center;
+   font-weight: 100px;
+   font-size: 68px;
 }
 
 li:nth-of-type(n):hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 footer p {
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-    background-color: red;
-    animation-name: kreis;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    padding: 0 300px;
+   height: 50px;
+   width: 50px;
+   margin: 0 auto;
+   background-color: red;
+   animation-name: kreis;
+   animation-duration: 1.5s;
+   animation-timing-function: ease-out;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-fill-mode: none;
+   animation-play-state: running;
+   padding: 0 300px;
 }
 
 @keyframes kreis {
-    0% {
-        transform: scale(.3);
-        background-color: red;
-        border-radius: 100%;
-    }
-    50% {
-        background-color: orange;
-    }
-    100% {
-        transform: scale(1.5);
-        background-color: yellow;
-    }
+   0% {
+      transform: scale(0.3);
+      background-color: red;
+      border-radius: 100%;
+   }
+   50% {
+      background-color: orange;
+   }
+   100% {
+      transform: scale(1.5);
+      background-color: yellow;
+   }
 }
